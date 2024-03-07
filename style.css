@@ -1,0 +1,127 @@
+/* Reset de Estilos */
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #111;
+    color: #fff;
+}
+
+/* Cabeçalho */
+header {
+    background-color: #ff4500;
+    text-align: center;
+    padding: 1em 0;
+}
+
+.header-content {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+p {
+    font-size: 1.2em;
+}
+
+/* Menu de Navegação */
+nav {
+    background-color: #333;
+    padding: 10px 0;
+}
+
+.menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.menu li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2em;
+}
+
+/* Seção Hero */
+#hero {
+    text-align: center;
+}
+
+.hero-image {
+    max-width: 100%;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.7);
+    margin-top: 20px;
+}
+
+/* Seção de Biografia e Integrantes */
+section {
+    margin: 20px;
+}
+
+h2 {
+    color: #ff4500;
+}
+
+.members {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.member {
+    margin: 10px;
+    text-align: center;
+}
+
+.member img {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+/* Botões */
+.button-container {
+    text-align: center;
+}
+
+button {
+    padding: 15px 30px;
+    background-color: #ff4500;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1.2em;
+}
+
+button:hover {
+    background-color: #e03000;
+}
+
+/* Rodapé */
+footer {
+    background-color: #ff4500;
+    color: #fff;
+    text-align: center;
+    padding: 0.5em 0;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    font-size: 0.8em;
+}
